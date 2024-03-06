@@ -17,7 +17,7 @@ background-color: darkgreen;
 position:fixed;
 display:flex;
 width:100%;
-align-items center;
+align-items: center;
 justify-content: space-between;
 box-shadow: 0 0 5px black;
 }
@@ -36,7 +36,6 @@ nav > ul{
 }
 nav > ul > li {
     display: inline-block;
-    margin-top:50px;
     padding-right:50px;
 }
 nav a{
@@ -47,6 +46,7 @@ nav a{
 main{
 background-color:#3e7a32;
 flex: 1 0 auto;
+margin-top:131px;
 }
 footer{
 background-color: #4c5d63;
