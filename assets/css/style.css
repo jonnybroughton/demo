@@ -48,10 +48,18 @@ background-color:#3e7a32;
 flex: 1 0 auto;
 margin-top:131px;
 }
-footer{
-background-color: #4c5d63;
-position:fixed;
-margin-top: auto;
-bottom:0;
-width:100%
+
+#social-networks{
+    text-align:center;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: slategray;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    list-style-type: none;
+    font-size: 150%;
+}
+#social-networks a{
+    color:#ffffff;
 }
