@@ -50,4 +50,8 @@ margin-top:131px;
 }
 footer{
 background-color: #4c5d63;
+position:fixed;
+margin-top: auto;
+bottom:0;
+width:100%
 }
