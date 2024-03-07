@@ -45,6 +45,7 @@ nav a{
 }
 main{
 background-color:#3e7a32;
+background-image:url('/assets/images/peakpx.jpg');
 flex: 1 0 auto;
 margin-top:131px;
 }
