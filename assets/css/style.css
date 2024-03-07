@@ -54,6 +54,17 @@ margin-top:131px;
     height:500px;
     width:100%;
     margin-top: 60px;
+    position: relative;
+}
+#hero h2{
+    font-family:'Stardos Stencil';
+}
+#hero-text{
+position:absolute;
+top:25%;
+left: 250px;
+color:black;
+font-size: 150%;
 }
 
 /*FOOTER STYLES*/
