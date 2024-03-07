@@ -49,7 +49,14 @@ background-image:url('/assets/images/peakpx.jpg');
 flex: 1 0 auto;
 margin-top:131px;
 }
+#hero{
+    background:url('/assets/images/military_painting_old-1197358.jpg') no-repeat center/cover;
+    height:500px;
+    width:100%;
+    margin-top: 60px;
+}
 
+/*FOOTER STYLES*/
 #social-networks{
     text-align:center;
     display:flex;
