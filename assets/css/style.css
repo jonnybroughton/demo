@@ -20,6 +20,7 @@ width:100%;
 align-items: center;
 justify-content: space-between;
 box-shadow: 0 0 5px black;
+z-index: 99;
 }
 #logo{
     padding:30px;
@@ -43,11 +44,13 @@ nav a{
     color:#ffffff;
     letter-spacing: 2px;
 }
+/*MAIN CONTENT STYLES*/
 main{
 background-color:#3e7a32;
 background-image:url('/assets/images/peakpx.jpg');
 flex: 1 0 auto;
 margin-top:131px;
+padding-bottom: 50px;
 }
 #hero{
     background:url('/assets/images/military_painting_old-1197358.jpg') no-repeat center/cover;
@@ -62,9 +65,15 @@ margin-top:131px;
 #hero-text{
 position:absolute;
 top:25%;
-left: 250px;
+left: 50%;
+transform: translateX(-50%);
 color:black;
 font-size: 150%;
+}
+#introduction{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2rem;
 }
 
 /*FOOTER STYLES*/
